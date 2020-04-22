@@ -3,7 +3,6 @@
 set -o nounset
 CURRENT_PATH=`pwd`
 cd ${CURRENT_PATH}/..
-export CURRENT_PATH=$PWD
 export PREFIX_ROOT=/home/nginx/
 export THIRD_ROOT=${CURRENT_PATH}/3rd_party/
 export EXTEND_ROOT=${CURRENT_PATH}/extend/
