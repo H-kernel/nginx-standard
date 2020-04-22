@@ -292,7 +292,7 @@ build_nginx_module()
     
     echo "all optiont info:\n ${all_opt}"
     
-    cd ${CURRENT_PATH}/nginx/
+    cd ${CURRENT_PATH}/nginx*/
     chmod +x configure
     ./configure ${all_opt} 
 
