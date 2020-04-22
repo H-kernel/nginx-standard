@@ -239,10 +239,10 @@ build_extend_modules()
 
 build_nginx_module()
 {
-
+    cd ${CURRENT_PATH}
     ###wget the allmedia
     module_pack="nginx-1.18.0.tar.gz"
-    if [ ! -f ${CURRENT_PATH}${module_pack} ]; then
+    if [ ! -f ${CURRENT_PATH}/${module_pack} ]; then
         echo "start get the nginx package from server\n"
         wget http://nginx.org/download/${module_pack}
     fi
