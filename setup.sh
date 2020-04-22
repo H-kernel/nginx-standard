@@ -17,6 +17,7 @@ else
     export PKG_CONFIG_PATH=${EXTEND_ROOT}/lib/pkgconfig/:${PKG_CONFIG_PATH}
 fi
 
+
 find=`env|grep PATH`
 if [ "find${find}" == "find" ]; then    
     export PATH=${EXTEND_ROOT}/bin/
